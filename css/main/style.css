@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.menu-wrap, .navbar{
+    background-color: rgba(var(--cdc,255,255,255),1) !important;
+}
+.navbar-brand img{
+    width: 103px;
+}
+.navbar-nav a.nav-link{
+	color: black !important;
+	font-weight: 500;
+	font-size: 15px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.navbar-collapse .profile-nav{
+	margin-left: 15px;
+}
+.navbar-collapse .profile-nav img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.layout-video{
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.layout-video .user{
+	display: flex;
+	padding: 14px;
+	border-bottom:1px solid rgba(var(--b6a,219,219,219),1);
+}
+.layout-video .user img{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
+.layout-video .user .name-user{
+	margin: auto 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+/* .embed-responsive-16by9{
+	width: 377px;
+	height: 692px;
+} */
+.group-button-action{
+	padding: 14px;
+	font-size: 20px;
+}
+.group-button-action span{
+	padding: 8px;
+}
+
+
+.view-like-count{
+	padding-left: 22px;
+}
+.view-like-count .like-count{
+	font-size: 14px;
+	font-weight: 600;
+}
+.view-like-count .view-count{
+	font-size: 13px;
+	color: #8e8e8e;
+}
+.form-comment{
+	display: flex;
+	border-top:1px solid rgba(var(--b6a,219,219,219),1);
+}
+.form-comment form{
+	width: 100%;
+	padding: 5px;
+    padding-left: 22px;
+}
+.form-comment form input{
+	width: 100%;
+	border: none;
+	padding: 10px;
+	padding-left: 0;
+	outline: none;
+}
+.form-comment .btn-comment{
+	border: none;
+	background: none;
+	padding-right: 10px;
+	color: #0095f6;
+	font-weight: 600;
+	margin: 0 auto;
+	outline: none;
+}
+.video-wrap {
+    background: black;
+}
+.user-container{
+	display: flex;
+	border-bottom: 1px solid wheat;
+}
+.user-container .avatar{
+	margin: auto 0;
+}
+.user-container .avatar img{
+	border-radius: 50%;
+	width: 64px;
+	height: 64px;
+}
+.user-container .user-info{
+	margin-left: 10px;
+	color: black;
+}
+.user-info .user-nickname{
+	font-size: 20px;
+}
+.user-info .user-username{
+	font-size: 15px;
+	color: rgba(22, 24, 35, 0.5);
+}
+.video-meta-info .video-meta-title{
+	font-size: 17px;
+	color: #161823;
+}
+.music-info{
+	font-size: 16px;
+}
+.music-info a{
+	color: black !important;
+}
+.video-meta-count{
+	font-size: 17px;
+	color: #161823;
+}
+
+.modal-content .modal-body .item-video{
+	position: relative !important;
+}
+.embed-responsive-1by1::before {
+    padding-top: 0;
+}
+/* Sidebar */
+.profile{
+	display: flex;
+}
+.profile .avatar-profile img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.profile .name-profile{
+	margin-left: 10px;
+}
+.profile .name-profile h4{
+	font-size: 18px;
+}
+.profile .name-profile p{
+	font-size: 14px;
+	color: #8e8e8e;
+}
+
+.suggest-account{
+	border: 1px solid rgba(22,24,35,0.12);
+	border-radius: 8px;
+}
+.suggest-account .title-recommend h3{
+	font-size: 16px;
+}
+
+.wrapper-scrollpy {
+    display: flex;
+    height: 380px;
+    padding-left: 5px;
+}
+.slimScrollBar {
+    width: 100%;
+    overflow-y: scroll;
+    color: #bbb;
+    font-size: 12px;
+    line-height: 26px;
+}
+.slimScrollBar h1{
+	font-size: 24px;
+}
+.slimScrollBar img{
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+}
+.recommend-item{
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.avatar-recommend{
+	width: 48px;
+	height: 48px;
+	margin: auto 0;
+}
+.info-recommend h4{
+	font-size: 14px;
+}
+.info-recommend p{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.slimScrollBar::-webkit-scrollbar{
+    background: gray !important;
+}
+.slimScrollBar::-webkit-scrollbar-thumb{
+    background: rgba(22,24,35,0.34) !important;
+    height: 20px !important;
+    border-radius: 7px !important;
+}
+.slimScrollBar::-webkit-scrollbar {
+    width: 10px;
+    background-color: black;
+}
+
+@media screen and (max-width: 992px){
+	.navbar-collapse .profile{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+}
